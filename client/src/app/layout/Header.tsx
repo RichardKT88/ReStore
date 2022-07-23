@@ -35,7 +35,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
         <AppBar position='static' sx={{ mb: 4 }}>
             <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Box display='flex' alignItems='center'>
-                    <Typography variant='h6' component={NavLink} to='/' sx={navStyles}>
+                    <Typography variant='h6' component={NavLink} exact to='/' sx={navStyles}>
                         RE-STORE
                     </Typography>
                     <Switch
