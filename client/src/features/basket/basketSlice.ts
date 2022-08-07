@@ -23,8 +23,7 @@ export const addBasketItemAsync = createAsyncThunk<Basket, {productId: number, q
     }
 )
 
-export const removeBasketItemAsync = createAsyncThunk<void, 
-    {productId: number, quantity: number, name?: string}>(
+export const removeBasketItemAsync = createAsyncThunk<void, {productId: number, quantity: number, name?: string}>(
     'basket/removeBasketItemAsync',
     async ({productId, quantity}, thunkAPI) => {
         try {
