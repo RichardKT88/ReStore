@@ -1,4 +1,5 @@
 import { Button, Menu, Fade, MenuItem } from "@mui/material";
+import { useState } from "react";
 import { signOut } from "../../features/account/accountSlice";
 import { clearBasket } from "../../features/basket/basketSlice";
 import { useAppDispatch, useAppSelector } from "../store/configureStore";
@@ -39,8 +40,4 @@ export default function SignedInMenu() {
             </Menu>
         </>
     );
-}
-
-function useState(arg0: null): [any, any] {
-    throw new Error("Function not implemented.");
 }
