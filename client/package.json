@@ -9,7 +9,7 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/lab": "^5.0.0-alpha.92",
     "@mui/material": "^5.9.2",
-    "@reduxjs/toolkit": "^1.8.3",
+    "@reduxjs/toolkit": "^1.8.3",    
     "@stripe/react-stripe-js": "^1.10.0",
     "@stripe/stripe-js": "^1.35.0",
     "@testing-library/jest-dom": "^5.16.4",
