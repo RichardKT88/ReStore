@@ -7,6 +7,7 @@ import AboutPage from "../../features/about/AboutPage";
 import { fetchCurrentUser } from "../../features/account/accountSlice";
 import Login from "../../features/account/Login";
 import Register from "../../features/account/Register";
+import Inventory from "../../features/admin/Inventory";
 import BasketPage from "../../features/basket/BasketPage";
 import { fetchBasketAsync } from "../../features/basket/basketSlice";
 import Catalog from "../../features/catalog/Catalog";
@@ -73,6 +74,7 @@ function App() {
             <Route path='/basket' component={BasketPage} />
             <PrivateRoute path='/checkout' component={CheckoutWrapper} />
             <PrivateRoute path='/orders' component={Orders} />
+            <PrivateRoute path='/inventory' component={Inventory} />
             <Route path='/login' component={Login} />
             <Route path='/register' component={Register} />
             <Route component={NotFound} />
