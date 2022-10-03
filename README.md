@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <p float="left">
 <img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/login.jpg?raw=true" width="300" hspace="20"/>
 <img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/login-unauthorized.jpg?raw=true" width="300" hspace="20"/>
-<img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/register.jpg?raw=true" width="300" />
+<img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/register.jpg?raw=true" width="300" hspace="20"/>
 </p>
 
 ### Catalog
@@ -85,7 +85,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/checkout.jpg?raw=true" width="200" hspace="20"/>
 <img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/checkout2.jpg?raw=true" width="200" hspace="20"/>
 <img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/checkout3.jpg?raw=true" width="200" hspace="20"/>
-<img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/checkout4.jpg?raw=true" width="200" />
+<img src="https://github.com/RichardKT88/ReStore/blob/DotNet6/API/assets/checkout4.jpg?raw=true" width="200" hspace="20"/>
 </p>
 
 ### Orders
